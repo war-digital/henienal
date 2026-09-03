@@ -283,8 +283,8 @@ function initMusicControls() {
 // 6. COUNTDOWN TIMER
 // ==============================================
 function initCountdown() {
-    // Target date: Saturday, 12 September 2026 09:00:00 WITA/WIB
-    const targetDate = new Date('2026-09-12T09:00:00+08:00').getTime();
+    // Target date: Saturday, 12 September 2026 10:00:00 WITA
+    const targetDate = new Date('2026-09-12T10:00:00+08:00').getTime();
 
     const updateTimer = () => {
         const now = new Date().getTime();
